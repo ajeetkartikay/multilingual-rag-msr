@@ -1,0 +1,23 @@
+#Ignore all data files
+data/
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Hugging Face cache
+.cache/
+**/.cache/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Data files (keep only small samples, not full datasets)
+data/raw/
+data/index/
+
+# Logs
+*.log
